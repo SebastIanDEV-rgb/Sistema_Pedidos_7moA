@@ -11,7 +11,7 @@
           productos.forEach(prod => {
             const div = document.createElement('div');
             div.innerHTML = `
-                    <div class="card" style="width: 18rem; float: left; margin-right: 50px; height: 250px;">
+                    <div class="card" style="width: 18rem; float: left; margin-right: 50px; margin-bottom: 50px; height: 250px;">
                     <div class="card-body">
                         <h5 class="card-title">${prod.nombre}</h5>
                         <p class="card-text">${prod.descripcion_corta}</p>
